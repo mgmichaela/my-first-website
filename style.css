@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+}
+
+.bar, h1, button {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+
+.top, .bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.top {
+    top: 0;
+}
+
+.bar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.center .bar {
+    display: inline-block;
+    width: auto;
+}
+
+.display-container {
+    display: top middle;
+}
+
+.bar .bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.bar.dropdown-hover, .bar.dropdown-click {
+    position: static;
+    float: left;
+}
+
+.bar .button {
+    white-space: normal;
+}
+
+.DimGrey {
+    color: #fff;
+    background-color: #696969;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.left-align {
+    text-align: left;
+}
+
+.large {
+    font-size: 18px!important;
+}
+
+.bar-block .bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.bar-bloc.center .bar-item {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn, .button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn, .button {
+    -webkit-touch-callout: none;
+    /* This property controls the display of the default callout shown when you touch and hold a touch target. */
+    -webkit-user-select: none;
+    /* This property controls whether the user can select text. This doesn't have any effect on content loaded as chrome, except in textboxes.*/
+    -khtml-user-select: none;
+    /* This property specifies whether the text of an element can be selected. */
+    -moz-user-select: none;
+    /* Specifies whether the text of the element can be selected. */
+    -ms-user-select: none;
+    /* Specifies whether the text of the element can be selected. */
+    user-select: none;
+    /* Specifies whether the text of the element can be selected. */
+}
+
+.button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.right {
+    float: right;
+}
+
+.padding-large {
+    padding: 12px 24px!important;
+}
+
+.white, .hover-white:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Header */
+
+.container:after, .container:before, .panel:after, .panel:before, .row:after, .row:before, .row-padding:after, .row-padding:before, .cell-row:before, .cell-row:after, .clear:after, .clear:before, .bar:before, .bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container, .panel {
+    padding: 0.01em 16px;
+}
+
+.margin {
+    margin: 16px;
+}
+
+.margin-top {
+    margin-top: 16px;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+.margin-left {
+    margin-left: 16px;
+}
+
+.margin-right {
+    margin-right: 16px;
+}
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+}
+
+.xlarge {
+    font-size: 24px!important;
+}
+
+.black, .hover-black:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/* First Grid */
+
+.row-padding, .row-padding.half, .row-padding.third, .row-padding.twothird, .row-padding.threequarter, .row-padding.quarter, .row-padding.col {
+    padding: 0 8px;
+}
+
+.padding-64 {
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+
+.content, .auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    max-width: 980px;
+}
+
+.twothird {
+    float: left;
+    width: 100%;
+}
+
+.padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.text-grey, .hover-text-grey:hover, .text-gray, .hover-text-gray:hover {
+    color: #757575;
+}
+
+/* Second Grid*/
+
+.light-grey, .hover-light-grey:hover, .light-gray, .hover-light-gray:hover {
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.fa-coffee {
+    content: "\f0f4";
+}
+
+.opacity, .hover-opacity:hover {
+    opacity: 0.73;
+}
+
+.hover-opacity-off:hover {
+    opacity: 1;
+}
+
+.opacity-min {
+    opacity: 0.75;
+}
+
+/*Footer*/
+
+.fa-facebook {
+    content: "\f230";
+}
+
+.fbcolor {
+    color: #000;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    content: "f16d";
+}
+
+.instacolor {
+    color: #000;
+    cursor: pointer;
+}
+
+.fa-linkedin {
+    content: "\f0e1";
+}
+
+.incolor {
+    color: #000;
+    cursor: pointer;
+}
+
+.img-1 {
+    background-image: url("https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/118701248_330703658293610_4713257265503630061_n.jpg?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_ohc=1t8VcaexqeEAX-REV0B&_nc_ht=scontent-arn2-1.xx&oh=292fa581d9d49a1adcd6cd142cb463b1&oe=5FF3F8CE");
+    min-height: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2 {
+    width: 30%;
+    vertical-align: middle;
+    float: right;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.float {
+    float: left;
+}
+
+h5 {
+    letter-spacing: 2px;
+}
